@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+}
+
+.container{
+   
+    position: relative;
+    margin-top: 3px;
+    
+}
+
+.logo{
+    font-size: 50px;
+    height: 30px;
+    position:absolute;
+    top: 15px;
+    left: 90px;
+}
+
+.textoEncriptar{
+    color: #0A3871;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 185px;
+    top: 90px;
+    border: none;
+    padding: 10px;
+    resize: none;
+    font-size: 20px;
+}
+
+.botones{
+    position: absolute;
+    top: 500px;
+    left: 190px;
+    
+}
+.botones P{
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+
+.btn1,.btn2{
+    position: static;
+    width: 200px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    color: white;
+}
+
+.encriptado2{
+    display: none;
+}
+
+.encriptado{
+    height: 570px;
+    width: 250px;
+    border: 1px black solid;
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    text-align: center;
+    border-radius: 32px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.textoModificado{
+    color: #0A3871;
+    height: 490px;
+    width: 190px;
+    margin-top: 17px;
+    margin-left: 10px;
+    background: #FFFFFF;
+    /*border: 1px black solid;*/
+    border: none;
+    font-size: 13px;
+    display: none;
+    text-align: justify;
+    padding: 0px 20px;
+    color: #495057;
+    resize: none;
+}
+
+.imagen{
+   
+    height: 220px;
+    width: 190px;
+    margin-top: 150px;
+    background: #FFFFFF;
+    
+}
+
+.imagenAlerta{
+    background-color: white;
+    margin: 0 auto;
+    width: 180px;
+    height: 220px;
+    position: absolute;  
+    left: 38px;
+    
+}
+
+.alerta,strong,br{
+    background: #FFFFFF
+}
+
+.alerta p{
+    margin-bottom: 5px;
+    background: #FFFFFF;
+    font-size: 13px;
+}
+
+
+.encriptado button{
+    background: #E5E5E5;
+    position: absolute;
+    top: 515px;
+    left: 28px;
+   
+    
+}
+
+.btn1{
+    background-color: #0A3871;
+}
+
+.btn2{
+    color: #0A3871;
+    border-color: #0A3871;
+
+}
+
+.btn3{
+    width: 200px;
+    height: 44px;
+    border-radius: 24px;
+}
+
+.copiar{
+   display: none;
+    color: #0A3871;
+    border-color: #0A3871;
+    background-color: #FFFFFF;
+    
+}
+
+.mensaje{
+    display: none;
+}
+
+.alertaImportante{
+    margin: 5px;
+    height: 20px;
+    position: relative;
+}
+
+.alertaImportante span svg{
+    position: absolute;
+    top: 1px;
+    
+    
+}
+.alertaImportante p{
+    position: absolute;
+    top: 1px;
+    left: 20px;
+}
+
+@media only screen and (max-width: 849px) {
+
+    .logo{
+        font-size: 50px;
+        height: 30px;
+        position:absolute;
+        top: 15px;
+        left: 190px;
+    }
+    
+    
+    .botones{
+        width: 600px;
+        position: absolute;
+        top: 500px;
+        left: 190px;
+        
+    }
+
+    .encriptado{
+        height: 80px;
+        width: 405px;
+        border: 1px black solid;
+        position: absolute;
+        top: 590px;
+        left: 190px;
+        text-align: center;
+        border-radius: 32px;
+        border: none;
+        background: #FFFFFF;
+    }
+
+    .imagenAlerta{
+        display: none;
+    }
+
+    .imagen{
+        margin: 0px;
+        height: 5px;
+        width: 0;
+    }
+
+    .alerta{
+        width: 380px;
+        margin-left: 12px;
+        margin-top: 8px;
+
+    }
+
+    .textoModificado{
+        color: #0A3871;
+        height: 160px;
+        width: 338px;
+        margin-top: 17px;
+        margin-left: 10px;
+        background: #FFFFFF;
+        /*border: 1px black solid;*/
+        border: none;
+        font-size: 13px;
+        display: none;
+        text-align: justify;
+        padding: 0px 20px;
+        color: #495057;
+        resize: none;
+    }
+
+    .encriptado button{
+        background: #E5E5E5;
+        position: absolute;
+        top: 185px;
+        left: 22px;
+        width: 360px;
+    }
+
+    .botones P{
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .botones{
+        width: 240px;
+        position: absolute;
+        top: 500px;
+        left: 199px;
+        
+    }
+
+    .encriptado{
+        height: 80px;
+        width:  220px;
+        border: 1px black solid;
+        position: absolute;
+        top: 630px;
+        left: 190px;
+        text-align: center;
+        border-radius: 32px;
+        border: none;
+        background: #FFFFFF;
+    }
+
+    .alerta{
+        width: 195px;
+        margin-left: 12px;
+        margin-top: 0px;
+
+    }
+
+    .textoModificado{
+        color: #0A3871;
+        height: 160px;
+        width: 155px;
+        margin-top: 17px;
+        margin-left: 10px;
+        background: #FFFFFF;
+        /*border: 1px black solid;*/
+        border: none;
+        font-size: 13px;
+        display: none;
+        text-align: justify;
+        padding: 0px 20px;
+        color: #495057;
+        resize: none;
+    }
+
+    .encriptado button{
+        background: #E5E5E5;
+        position: absolute;
+        top: 185px;
+        left: 10px;
+        width: 195px;
+    }
+
+    .textoEncriptar{
+        color: #0A3871;
+        position: absolute;
+        width: 200px;
+        height: 370px;
+        left: 185px;
+        top: 90px;
+        border: none;
+        padding: 10px;
+        resize: none;
+        font-size: 20px;
+    }
+
+    .botones P{
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+}
